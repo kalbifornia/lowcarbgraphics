@@ -26,8 +26,13 @@
         "xml"
       ]
     },
+    "icon": "./src/images/lcg_icon.png",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kalbifornia.lowcarbgraphics"
+    },
+    "android": {
+      "package": "com.kalbifornia.lowcarbgraphics"
     },
     "splash": {
       "image": "./src/images/splash.png",
