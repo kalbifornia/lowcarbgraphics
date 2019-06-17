@@ -4,7 +4,9 @@ const images = [
       source: require('./1.png'),
       imageWebsite: 'http://www.ketosizeme.com',
       imageWebsiteTitle: 'Keto Size Me',
-      imageWebsiteQuestion: 'Would you like to open the KetoSizeMe website?'
+      imageWebsiteQuestion: 'Would you like to open the KetoSizeMe website?',
+      author: 'KetoSizeMe.com',
+      authorTwitter: '@KetoSizeMe'
     }
   },
   {
@@ -12,7 +14,9 @@ const images = [
       source: require('./2.png'),
       imageWebsite: 'http://www.burnfatnotsugar.com',
       imageWebsiteTitle: 'Burn Fat Not Sugar',
-      imageWebsiteQuestion: 'Would you like to open Dr. Ted Naiman\'s website?'
+      imageWebsiteQuestion: 'Would you like to open Dr. Ted Naiman\'s website?',
+      author: 'Dr. Ted Naiman',
+      authorTwitter: '@tednaiman'
     }
   },
   {
@@ -20,7 +24,9 @@ const images = [
       source: require('./3.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -28,7 +34,9 @@ const images = [
       source: require('./4.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -36,7 +44,9 @@ const images = [
       source: require('./5.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -44,7 +54,9 @@ const images = [
       source: require('./6.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -52,7 +64,9 @@ const images = [
       source: require('./7.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -60,7 +74,9 @@ const images = [
       source: require('./8.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -68,7 +84,9 @@ const images = [
       source: require('./9.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -76,7 +94,9 @@ const images = [
       source: require('./10.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -84,7 +104,9 @@ const images = [
       source: require('./11.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -92,7 +114,9 @@ const images = [
       source: require('./12.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -100,7 +124,9 @@ const images = [
       source: require('./13.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -108,7 +134,9 @@ const images = [
       source: require('./14.png'),
       imageWebsite: 'http://www.dietdoctor.com',
       imageWebsiteTitle: 'Diet Doctor',
-      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?'
+      imageWebsiteQuestion: 'Would you like to open the Diet Doctor website?',
+      author: 'DietDoctor.com',
+      authorTwitter: '@DietDoctor1'
     }
   },
   {
@@ -116,7 +144,9 @@ const images = [
       source: require('./15.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -124,7 +154,9 @@ const images = [
       source: require('./16.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -132,7 +164,9 @@ const images = [
       source: require('./17.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -140,7 +174,9 @@ const images = [
       source: require('./18.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -148,7 +184,9 @@ const images = [
       source: require('./19.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -156,7 +194,9 @@ const images = [
       source: require('./20.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -164,7 +204,9 @@ const images = [
       source: require('./21.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   },
   {
@@ -172,7 +214,9 @@ const images = [
       source: require('./22.png'),
       imageWebsite: 'http://www.phcuk.org/sugar',
       imageWebsiteTitle: 'Public Health Collaboration',
-      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?'
+      imageWebsiteQuestion: 'Would you like to open the Public Health Collaboration website?',
+      author: 'Dr. David Unwin',
+      authorTwitter: '@lowcarbGP'
     }
   }
 ];

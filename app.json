@@ -33,6 +33,7 @@
       "image": "./src/images/splash.png",
       "backgroundColor": "#4682B4",
       "resizeMode": "contain"
-    }
+    },
+    "githubUrl": "https://github.com/kalbifornia/lowcarbgraphics"
   }
 }

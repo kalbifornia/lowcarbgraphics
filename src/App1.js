@@ -24,7 +24,8 @@ class App1 extends Component {
     const {
       imageWebsite,
       imageWebsiteQuestion,
-      imageWebsiteTitle } = images[this.state.currentIndex].props;
+      imageWebsiteTitle
+    } = images[this.state.currentIndex].props;
 
     if (imageWebsite != undefined) {
       Alert.alert(
@@ -56,13 +57,14 @@ class App1 extends Component {
 
   renderIndicator = (curIndex, totalImages) => {
     return (
+
       <View style={
         {
           position: 'absolute',
           left: 0,
           right: 0,
           top: 50,
-          zIndex: -13,
+          zIndex: -1,
           justifyContent: 'center',
           alignItems: 'center',
           backgroundColor: 'transparent'}}
@@ -98,18 +100,53 @@ class App1 extends Component {
         />
       );
     }
+
+    const {
+      author,
+      authorTwitter
+    } = images[this.state.currentIndex].props;
+
+    let authorSection = <Text> </Text>;
+    if (author != null) {
+      authorSection = <Text style={
+        {
+            fontWeight: 'bold'
+        }
+      }>{'Graphic Creator: ' + author}</Text>;
+    }
+    let authorTwitterSection = <Text> </Text>;
+    if (authorTwitter != null) {
+      authorTwitterSection = <Text style={
+          {
+              fontWeight: 'bold'
+          }
+      }>{authorTwitter}</Text>;
+    }
     return (
-        <View style={{flex: 1, backgroundColor: 'blue'}}>
+        <View style={{flex: 1, backgroundColor: 'steelblue'}}>
           <ImageViewer
             imageUrls={images}
             enablePreload={true}
-            backgroundColor={'steelblue'}
+            backgroundColor={'transparent'}
             saveToLocalByLongPress={false}
             renderIndicator={this.renderIndicator}
             onClick={this.onClick}
             onChange={this.onChange}
             index={this.state.currentIndex}
             />
+            <View style={{
+              position: 'absolute',
+              bottom: 50,
+              left: 0,
+              right: 0,
+              justifyContent: 'center',
+              alignItems: 'center',
+              backgroundColor: 'transparent',
+              zIndex: -1
+            }}>
+              {authorSection}
+              {authorTwitterSection}
+              </View>
           </View>
     );
   }
