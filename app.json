@@ -26,10 +26,12 @@
         "xml"
       ]
     },
-    "icon": "./src/images/lcg_icon.png",
+    "icon": "./src/images/lci_icon.png",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kalbifornia.lowcarbgraphics"
+      "bundleIdentifier": "com.kalbifornia.lowcarbgraphics",
+      "usesNonExemptEncryption": false,
+      "icon": "./src/images/lci_icon.png"
     },
     "android": {
       "package": "com.kalbifornia.lowcarbgraphics"
