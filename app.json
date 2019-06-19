@@ -30,7 +30,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.kalbifornia.lowcarbgraphics",
-      "usesNonExemptEncryption": false,
+      "buildNumber": "2",
+      "config" : {
+        "usesNonExemptEncryption": false
+      },
       "icon": "./src/images/lci_icon.png"
     },
     "android": {
