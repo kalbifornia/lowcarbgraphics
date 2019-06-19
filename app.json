@@ -1,11 +1,11 @@
 {
   "name": "jk-apps-lowcarbgraphics",
-  "displayName": "Low Carb Infographics",
+  "displayName": "Low Carb InfoGraphics",
   "headerHeight": 40,
   "headerColor": "steelblue",
   "mainBackgroundColor": "steelblue",
   "expo": {
-    "name": "lowcarbgraphics",
+    "name": "Low Carb InfoGraphics",
     "description": "A basic app showing some useful Low Carb infographics",
     "slug": "snack-jk-apps-lowcarbgraphics",
     "privacy": "unlisted",
@@ -26,21 +26,21 @@
         "xml"
       ]
     },
-    "icon": "./src/images/lci_icon.png",
+    "icon": "./src/images/lci_icon2.png",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.kalbifornia.lowcarbgraphics",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "config" : {
         "usesNonExemptEncryption": false
       },
-      "icon": "./src/images/lci_icon.png"
+      "icon": "./src/images/lci_icon2.png"
     },
     "android": {
       "package": "com.kalbifornia.lowcarbgraphics"
     },
     "splash": {
-      "image": "./src/images/splash.png",
+      "image": "./src/images/splash2.png",
       "backgroundColor": "#4682B4",
       "resizeMode": "contain"
     },
