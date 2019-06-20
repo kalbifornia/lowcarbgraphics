@@ -13,7 +13,7 @@
     "version": "1.0.0",
     "orientation": "default",
     "primaryColor": "#cccccc",
-    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+    "icon": "./src/images/lci_icon2.png",
     "loading": {
       "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
       "hideExponentText": false
@@ -26,12 +26,11 @@
         "xml"
       ]
     },
-    "icon": "./src/images/lci_icon2.png",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.kalbifornia.lowcarbgraphics",
-      "buildNumber": "3",
-      "config" : {
+      "buildNumber": "4",
+      "config": {
         "usesNonExemptEncryption": false
       },
       "icon": "./src/images/lci_icon2.png"
